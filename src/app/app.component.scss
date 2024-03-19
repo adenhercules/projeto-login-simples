@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Oswald", sans-serif;
+}
+#form-cad {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 300px;
+}
+#form-cad input {
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 25px;
+  outline: none;
+}
+#form-cad button {
+  width: 105px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 10px;
+  outline: none;
+  border-style: none;
+  color: white;
+  background-color: orange;
+  box-shadow: 2px 2px 1px 1px (0, 0, 0, 1);
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+}
