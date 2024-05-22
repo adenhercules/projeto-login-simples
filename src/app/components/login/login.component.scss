@@ -1,0 +1,12 @@
+.card:hover {
+  transform: scale(1.1); /* Efeito de zoom ao passar o cursor */
+  box-shadow: 0 10px 10px rgba(222, 217, 217, 0.7);
+  border: 0;
+  z-index: 999999;
+}
+.card {
+  cursor: pointer;
+  border: 0;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out; /* Adiciona transição para a animação */
+}

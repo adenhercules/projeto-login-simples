@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+.conteudo {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f6;
+}
+
+@media (max-width: 768px) {
+  .conteudo {
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    height: 100%;
+    width: 100%; /* Ajuste a largura como desejar */
+  }
+}
+
+@media (max-width: 480px) {
+  .conteudo {
+    height: 100%;
+    width: 100%; /* Ajuste a largura como desejar */
+  }
+  .container {
+    height: 100%;
+    width: 100%; /* Ajuste a largura como desejar */
+  }
+}
+
+.title {
+  font-weight: 900;
+  color: #b95f89;
+  font-size: 6vw;
+  line-height: 124px;
+}
+.card-fundo {
+  background-color: #f1f1f6;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

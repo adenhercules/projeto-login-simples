@@ -1,0 +1,141 @@
+<div class="conteudo">
+  <div
+    class="dropdown cursor-pointer justify-content-end align-items-end d-flex me-4 pt-3"
+  >
+    <i
+      class="bi bi-moon-stars-fill text-black"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    ></i>
+    <fa-icon
+      class="ms-2"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+      [icon]="faAngleDown"
+    ></fa-icon>
+    <ul class="dropdown-menu">
+      <li>
+        <a class="dropdown-item"
+          ><i class="bi bi-brightness-high-fill me-2 fa-1x"></i>Tema Claro</a
+        >
+      </li>
+      <li>
+        <a class="dropdown-item">
+          <i class="bi bi-moon-stars-fill text-black me-2"></i>Tema Escuro</a
+        >
+      </li>
+      <li>
+        <a class="dropdown-item">
+          <i class="bi bi-circle-half me-2"></i>Automático</a
+        >
+      </li>
+    </ul>
+  </div>
+  <span
+    class="justify-content-center d-flex align-items-center font-montserrat title"
+    >Métodos de Ordenação</span
+  >
+
+  <div class="container pt-5">
+    <div class="row">
+      <div
+        class="card shadow mt-2 cursor-pointer col-lg-2 ms-4"
+        style="width: 18rem"
+      >
+        <div class="card-body">
+          <h5 class="card-title">
+            Insertion Sort
+            <fa-icon class="ms-2" [icon]="faMagnifyingGlass"></fa-icon>
+          </h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Ordenação por Inserção
+          </h6>
+          <p class="card-text">
+            Funciona de maneira similar ao modo como se organiza cartas em um
+            baralho. Gradualmente constrói a porção ordenada do array, inserindo
+            cada novo elemento na posição correta.
+          </p>
+        </div>
+      </div>
+      <div class="card shadow cursor-pointer mt-2 ms-4" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">
+            Selection Sort
+            <fa-icon class="ms-2" [icon]="faMagnifyingGlass"></fa-icon>
+          </h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Ordenação por Seleção
+          </h6>
+          <p class="card-text">
+            Simples, mas ineficiente para grandes conjuntos de dados.
+            Repetidamente encontra o menor elemento do array e o move para a
+            posição correta, fazendo isso para todos os elementos.
+          </p>
+        </div>
+      </div>
+      <div class="card shadow cursor-pointer mt-2 ms-4" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">
+            Quick Sort
+            <fa-icon class="ms-2" [icon]="faMagnifyingGlass"></fa-icon>
+          </h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Ordenação Rápida
+          </h6>
+          <p class="card-text">
+            Um algoritmo eficiente que utiliza o conceito de dividir e
+            conquistar. Escolhe um "pivô" e particiona o array em sub-arrays
+            menores e maiores que o pivô, ordenando-os recursivamente.
+          </p>
+        </div>
+      </div>
+      <div class="card shadow cursor-pointer mt-2 ms-4" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">
+            Merge Sort
+            <fa-icon class="ms-2" [icon]="faMagnifyingGlass"></fa-icon>
+          </h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Ordenação Por Mesclagem
+          </h6>
+          <p class="card-text">
+            Um algoritmo de divisão e conquista que classifica um array primeiro
+            dividindo-o em arrays menores e, em seguida, construindo o array
+            novamente da maneira correta para que seja classificado.
+          </p>
+        </div>
+      </div>
+      <div class="card shadow cursor-pointer mt-2 ms-4" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">
+            Shell Sort
+            <fa-icon class="ms-2" [icon]="faMagnifyingGlass"></fa-icon>
+          </h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            É uma extensão do algoritmo de ordenação por inserção
+          </h6>
+          <p class="card-text">
+            É o mais eficiente algoritmo de classificação dentre os de
+            complexidade quadrática
+          </p>
+        </div>
+      </div>
+      <div class="card shadow cursor-pointer mt-2 ms-4" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">
+            Bubble Sort
+            <fa-icon class="ms-2" [icon]="faMagnifyingGlass"></fa-icon>
+          </h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Ordenação em Bolha
+          </h6>
+          <p class="card-text">
+            É um algoritmo simples de ordenação que recebe como entrada uma
+            lista de elementos e produz uma lista ordenada de acordo com um
+            critério.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
